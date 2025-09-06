@@ -6,8 +6,8 @@ fdk.handle(async function(input, ctx){
 	//try {
 		let jiraClientId	= 0;
 		let jiraClientSecret= 0;
-		const provider = common.ResourcePrincipalAuthenticationDetailsProvider.builder();
-		//const provider 		= new common.ResourcePrincipalAuthenticationDetailsProvider();
+		//const provider = common.ResourcePrincipalAuthenticationDetailsProvider.builder();
+		const provider 		= new common.ResourcePrincipalAuthenticationDetailsProvider();
 		//(async () => {
 		//const identityClient 	  = await new identity.IdentityClient({authenticationDetailsProvider: provider});
 		
