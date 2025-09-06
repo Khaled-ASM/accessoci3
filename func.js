@@ -15,10 +15,11 @@ fdk.handle(async function(input, ctx){
         //const identityClient 	= new identity.IdentityClient({ authenticationDetailsProvider: provider });
 		const ociVaultName        = "IBA Vault";
 		const ociCompartmentName  = "NONPROD-Oracle-Integration-CMP";
-		console.log("TenantId: " + provider.getTenantId())
+		//console.log("TenantId: " + provider.getTenantId())
 		console.log("Check log Printed or not !!!!");
 		//})();
-		return {"tenantId": provider.getTenantId()}; //provider.getTenantId()
+		//return {"tenantId": provider.getTenantId()}; //provider.getTenantId()
+		return {"tenantId": "no value"};
 	//} catch (error) {
 	//	console.error('Error fetching data:', error);
 	//	return error;
